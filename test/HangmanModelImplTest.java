@@ -3,25 +3,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 
-class HangmanModelImplTest {
+public class HangmanModelImplTest {
 
   @Test
-  void initialize() {
+  public void aTestThatPasses() {
   }
 
-  @Test
-  void makeGuess() {
-  }
 
-  @Test
-  void isGameOver() {
-  }
-
-  @Test
-  void getCurrentState() {
-  }
-
-  @Test
-  void getGuessesRemaining() {
-  }
 }
