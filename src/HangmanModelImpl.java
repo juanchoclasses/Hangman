@@ -38,9 +38,11 @@ public class HangmanModelImpl implements HangmanModel {
 
   @Override
   public void initialize() {
+    // set the seed for testing
+
     int index = (int) (Math.random() * this.wordList.size());
+
     this.word = this.wordList.get(index);
-    System.out.println(this.word);
   }
 
   @Override
