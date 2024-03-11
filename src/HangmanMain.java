@@ -12,7 +12,7 @@ public class HangmanMain {
    * @param args The command line arguments.
    */
   public static void main(String[] args) {
-    HangmanModel game = new HangmanModelImpl("res/test.txt");
+    HangmanModel game = new HangmanModelImpl("res/words.txt");
 
     Scanner scanner = new Scanner(System.in);
 
