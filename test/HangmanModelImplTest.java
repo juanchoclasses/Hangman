@@ -9,10 +9,7 @@ public class HangmanModelImplTest {
 
   private HangmanModel game;
 
-  @Before
-  public void setUp() {
-    game = new HangmanModelImpl("res/test.txt");
-  }
+
 
   @Test
   public void aTestThatPasses() {
